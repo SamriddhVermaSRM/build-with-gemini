@@ -2,7 +2,7 @@ import { GoogleGenAI } from '@google/genai';
 
 // import apikey from .env file
 const ai = new GoogleGenAI({
-	apiKey: import.meta.env.VITE_API_KEY,
+	apiKey: 'YOUR_API_KEY',
 });
 
 const chat = ai.chats.create({ model: 'gemini-2.0-flash' });
