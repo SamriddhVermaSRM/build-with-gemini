@@ -1,0 +1,16 @@
+{
+	"name": "build-with-gemini",
+	"version": "1.0.0",
+	"description": "simple chatbot application",
+	"license": "ISC",
+	"author": "",
+	"type": "commonjs",
+	"main": "index.js",
+	"scripts": {
+		"start": "vite"
+	},
+	"dependencies": {
+		"@google/genai": "^0.7.0",
+		"vite": "^6.2.5"
+	}
+}
